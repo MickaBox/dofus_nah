@@ -1,0 +1,338 @@
+html, body {
+	margin: 0 ;
+	padding: 0 ;
+	text-align: center ;
+	margin-left: 0;
+	margin-top: 0;
+	background-color: #000000;
+}
+
+/* Container englobant tout le site */
+
+#container 
+{
+	padding: 0;
+	margin: 0;
+	position: relative;
+	width: 900px;
+	text-align: center ;
+}
+
+/* Baniere */
+
+#baniere
+{
+	padding: 0;
+	margin: 0;
+	position:relative;
+	background: url("baniere.jpg") no-repeat;
+	width: 900px;
+	height: 318px;
+	text-align: center ;
+	
+}
+
+/* Message defilant */
+
+#g_menu
+{
+	padding: 0;
+	margin: 0;
+	background: url("haut_menu.jpg") no-repeat;
+	float: left;
+	width: 215px;
+	height: 95px;
+}
+
+#marquee
+{
+	padding: 0;
+	margin: 0;
+	background: url("message_bis.jpg") no-repeat;
+	float: left;
+	width: 470px;
+	height: 95px;
+}
+
+#d_menu
+{
+	padding: 0;
+	margin: 0;
+	background: url("haut_minichat.jpg") no-repeat;
+	float: right;
+	width: 215px;
+	height:95px;
+}
+
+#d_message
+{
+	padding-bottom: 0;
+	left: 215px;
+	margin: 0;
+	background: url("d_message.gif") no-repeat;
+	position: absolute;
+	padding-top: 0;
+	height: 95px;
+	width: 470px;
+}
+
+/* Premiere parti du contenue */
+
+#contenance 
+{
+	padding: 0;
+	margin: 0;
+	background-image: url("contenance.jpg");
+	background-repeat: repeat;
+	position: relative;
+	width: 900px;
+	min-height: 1px;
+}
+
+#g_millieu
+{
+	padding: 0;
+	margin: 0;
+	float: left;
+	width: 215px;
+	text-align: left;
+}
+
+#fond_menu
+{
+	padding: 0;
+	margin: 0;
+	background: url("menu_millieu.jpg");
+	width: 215px;
+}
+
+#fin_menu
+{
+	padding: 0;
+	margin: 0;
+	position:relative;
+	background: url("fin_menu.jpg") no-repeat;
+	width: 215px;
+	height: 15px;
+	text-align: center ;
+}
+
+#millieu_page
+{
+	padding: 0;
+	margin: 0;
+	background: #69006A;
+	float: left;
+	width: 615px;
+	text-align: left;
+}
+
+#d_millieu
+{
+	padding: 0;
+	margin: 0;
+	float: left;
+	width: 70px;
+}
+
+/* Deuxieme parti pour les metiers */
+
+#dagues 
+{
+	padding: 0;
+	margin: 0;
+	margin-top: 6px;
+	margin-bottom: 6px;
+	width: 215px;
+	text-align: left;
+	padding-left: 50px;
+	padding-top: 0px;
+}
+
+#millieu_page_bis
+{
+	padding: 0;
+	margin: 0;
+	background: #69006A;
+	float: left;
+	width: 615px;
+	text-align: left;
+	padding-top: 20px;
+}
+
+#dagues_bis 
+{
+	padding: 0;
+	margin: 0;
+	margin-top: 6px;
+	margin-bottom: 6px;
+	text-align: left;
+	background: url("fond_craft.jpg") no-repeat;
+	height: 106px;
+	width: 615px;
+	color: #000000;
+}
+
+#craft
+{
+	padding: 0;
+	margin: 0;
+	padding-top: 8px;
+	padding-left: 8px;
+	text-align: left;
+	float: left;
+	width: 186px;
+	}
+
+#craft_bis
+{
+	padding: 0;
+	margin: 0;
+	padding-top: 8px;
+	padding-left: 8px;
+	text-align: left;
+	float: left;
+	width: 186px;
+	}
+
+#carac
+{
+	padding: 0;
+	margin: 0;
+	padding-top: 8px;
+	padding-left: 8px;
+	text-align: left;
+	float: left;
+	width: 122px;
+}
+
+#carac_bis
+{
+	padding: 0;
+	margin: 0;
+	padding-top: 8px;
+	padding-left: 8px;
+	text-align: left;
+	float: left;
+	width: 121px;
+}
+
+/* Derniere copyright */
+
+#copiryght
+{
+	padding: 0;
+	margin: 0;
+	background: url("copyright.jpg") no-repeat;
+	position: relative;
+	width: 900px;
+	height: 106px;
+}
+
+/* Paramétrage des Balise HTML */
+
+a {
+	font-family: verdana, Helvetica, sans-serif;
+	font-size: 11px;
+	color: #010217;
+	text-decoration: none;
+}
+
+a:hover {
+	color: #cc0000;
+}
+
+.a_g {
+	font-family: verdana, Helvetica, sans-serif;
+	font-size: 11px;
+	color: #010217;
+	text-decoration: none;
+	font-weight: bold;
+}
+
+.a_mail {
+	font-family: verdana, Helvetica, sans-serif;
+	font-size: 11px;
+	color: #000000;
+/*	text-decoration: underline; */
+	font-weight: bold;
+}
+
+.a_mail:hover {
+	color: #cc0000;
+}
+
+li {
+	list-style-image: url("li_1.gif");
+	margin: 0;
+	padding: 0;
+	text-align: left;
+	color: #010217;
+}
+
+ul {
+	font-size: 1px;
+	text-align: left;
+	padding-left: 71px;
+	padding-right: 0;
+	padding-top: 0;
+	padding-bottom: 0;
+	margin-top: 5;
+	margin-bottom: 5px;
+	margin-right: 0;
+	margin-left: 0;
+	text-align: center;
+	position: relative;
+}
+
+img {
+	border: 0px;
+	margin: 0px;
+	padding: 0px;
+	border:#000000
+
+}
+
+.img_craft {
+	border: 0px;
+	margin: 0px;
+	border:#000000
+
+}
+
+.menu {
+
+	font-family: martel;
+	font-size: 16px;
+	color: #000000;
+	text-align: left;
+	padding-left: 70px;
+}
+
+.heure {
+
+	font-family: verdana, sans-serif;
+	font-size: 11px;
+	color: #000000;
+	text-align: left;
+	padding-left: 42px;
+
+}
+
+.left {
+	float:left;
+}
+
+.clear { 
+clear:both;
+font-size:0px;
+}
+
+.spacer {
+clear: both;
+}
+
+hr {
+	background: url("blabla.jpg")  no-repeat;
+}
+
